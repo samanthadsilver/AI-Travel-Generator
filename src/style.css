@@ -20,7 +20,7 @@ h1 {
   box-shadow: 0 30px 50px rgba(22, 2, 13, 0.08);
 }
 
-.container-two {
+.advice {
   background: transparent
     linear-gradient(300deg, rgb(255, 65, 108) 0%, rgb(255, 75, 43) 100%);
   font-size: 16px;

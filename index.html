@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Travel Generator</title>
     <link rel="stylesheet" href="src/style.css" />
 </head>
@@ -12,7 +13,7 @@
     <div class="container">
         <header>
             <h1>Welcome to my Travel Generator</h1>
-            <form>
+            <form id="travel-generator-form">
                 <input id="location" type="text" placeholder="Where are you travelling?" autofocus required
                     autocomplete="off" />
                 <br />
@@ -22,11 +23,7 @@
         </header>
     </div>
     <main>
-        <div class="container-two">
-            The travel advice will go here
-            <br />
-            Next line of advice
-        </div>
+        <div class="advice" id="advice"></div>
     </main>
     <footer>This AI project was coded by <a href="https://www.shecodes.io/graduates/104265-samantha-silver"
             target="_blank">Samantha Silver</a>, is open sourced on <a

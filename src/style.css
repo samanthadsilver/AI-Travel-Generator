@@ -1,0 +1,74 @@
+body {
+  background: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.container {
+  background: transparent
+    linear-gradient(300deg, rgb(255, 65, 108) 0%, rgb(255, 75, 43) 100%);
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px 30px 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 30px 50px rgba(22, 2, 13, 0.08);
+}
+
+.container-two {
+  background: transparent
+    linear-gradient(300deg, rgb(255, 65, 108) 0%, rgb(255, 75, 43) 100%);
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 30px 50px rgba(22, 2, 13, 0.08);
+}
+
+form {
+  display: flex;
+}
+
+#location {
+  display: block;
+  background: #ffffff;
+  border: none;
+  border-radius: 6px;
+  width: 75%;
+  padding: 10px;
+  font-style: italic;
+  font-size: 13px;
+  color: #fe4269;
+}
+
+#submit {
+  background: #ffffff;
+  border: none;
+  border-radius: 6px;
+  width: 25%;
+  padding: 10px;
+  font-style: italic;
+  font-size: 13px;
+  color: #fe4269;
+  margin: 0px 00px 0px 10px;
+}
+
+footer {
+  font-style: italic;
+  font-size: 11px;
+  padding: 10px 0 10px;
+  text-align: center;
+  color: #fe4269;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  color: #fe4269;
+}

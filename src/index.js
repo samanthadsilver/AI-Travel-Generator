@@ -21,10 +21,6 @@ function generateAdvice(event) {
   adviceElement.classList.remove("hidden");
   adviceElement.innerHTML = `<div class="generating"> ⌛ Generating Travel Advice about ${instructionsInput.value}</div>`;
 
-  console.log("Generating advice");
-  console.log(`Prompt: ${prompt}`);
-  console.log(`Context: ${context}`);
-
   axios.get(apiUrl).then(displayAdvice);
 }
 

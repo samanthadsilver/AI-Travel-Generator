@@ -21,6 +21,10 @@ h1 {
   box-shadow: 0 30px 50px rgba(22, 2, 13, 0.08);
 }
 
+#example {
+  padding: 10px 0px 0px 0px;
+}
+
 .advice {
   background: transparent
     linear-gradient(300deg, rgb(255, 65, 108) 0%, rgb(255, 75, 43) 100%);
@@ -31,6 +35,10 @@ h1 {
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 30px 50px rgba(22, 2, 13, 0.08);
+}
+
+.hidden {
+  display: none;
 }
 
 form {
@@ -72,4 +80,14 @@ footer {
 a {
   font-family: "Roboto", sans-serif;
   color: #fe4269;
+}
+
+.generating {
+  animation: blink-animation 1.2s steps(2, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }

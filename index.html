@@ -15,16 +15,18 @@
         <header>
             <h1>Welcome to my Travel Generator</h1>
             <form id="travel-generator-form">
-                <input id="location" type="text" placeholder="Where are you travelling?" autofocus required
+                <input id="location" type="text" placeholder="What country you want to visit!" autofocus required
                     autocomplete="off" />
                 <br />
                 <input id="submit" type="submit" />
             </form>
-            <br />
+            <div id="example">
+                <small>ex: Mexico, Thailand, Tanzania etc.</small>
+            </div>
         </header>
     </div>
     <main>
-        <div class="advice" id="advice"></div>
+        <div class="advice hidden" id="advice"></div>
     </main>
     <footer>This AI project was coded by <a href="https://www.shecodes.io/graduates/104265-samantha-silver"
             target="_blank">Samantha Silver</a>, is open sourced on <a
